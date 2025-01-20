@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ChristmasTree from './components/ChristmasTree'
+import House from './components/House'
 import Line from './components/Line'
 // import './App.css'
 import './svg.css'
@@ -24,7 +25,10 @@ function App() {
 
       {/* Christmas tree */}
       <ChristmasTree />
+      {/* gingerbread figure */}
       <Line />
+      {/* House */}
+      <House />
     </div>
   )
 }
