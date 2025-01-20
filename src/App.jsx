@@ -2,6 +2,7 @@ import { useState } from 'react'
 import ChristmasTree from './components/ChristmasTree'
 import House from './components/House'
 import Line from './components/Line'
+import PathLesson from './components/PathLesson'
 // import './App.css'
 import './svg.css'
 
@@ -29,6 +30,8 @@ function App() {
       <Line />
       {/* House */}
       <House />
+      {/* learn path */}
+      <PathLesson />
     </div>
   )
 }
