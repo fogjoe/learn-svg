@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Bear from './components/Bear'
 import ChristmasTree from './components/ChristmasTree'
 import House from './components/House'
 import Line from './components/Line'
@@ -37,6 +38,8 @@ function App() {
       {/* QuadraticBezierCurve */}
       <QuadraticBezierCurve />
       <QuadraticBezierCurve2 />
+      {/* Bear */}
+      <Bear />
     </div>
   )
 }
