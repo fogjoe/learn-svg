@@ -4,6 +4,7 @@ import House from './components/House'
 import Line from './components/Line'
 import PathLesson from './components/PathLesson'
 import QuadraticBezierCurve from './components/QuadraticBezierCurve'
+import QuadraticBezierCurve2 from './components/QuadraticBezierCurve2'
 // import './App.css'
 import './svg.css'
 
@@ -35,6 +36,7 @@ function App() {
       <PathLesson />
       {/* QuadraticBezierCurve */}
       <QuadraticBezierCurve />
+      <QuadraticBezierCurve2 />
     </div>
   )
 }
