@@ -3,6 +3,7 @@ import ChristmasTree from './components/ChristmasTree'
 import House from './components/House'
 import Line from './components/Line'
 import PathLesson from './components/PathLesson'
+import QuadraticBezierCurve from './components/QuadraticBezierCurve'
 // import './App.css'
 import './svg.css'
 
@@ -32,6 +33,8 @@ function App() {
       <House />
       {/* learn path */}
       <PathLesson />
+      {/* QuadraticBezierCurve */}
+      <QuadraticBezierCurve />
     </div>
   )
 }
