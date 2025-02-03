@@ -75,3 +75,13 @@
   stroke: black;
   stroke-width: 2;
 }
+
+.test {
+  display: -webkit-box;
+  width: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+}
